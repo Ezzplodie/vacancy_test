@@ -22,11 +22,7 @@ a:active {
 nav,
 footer,
 header,
-aside {
-  // display: none;
-}
-
-html,
+aside html,
 body {
   height: 100%;
   width: 100%;
@@ -166,7 +162,7 @@ ul {
 }
 
 ul {
-  li:hover {
+  li:hover:focus {
     border-radius: 8px;
     background: #5932ea;
     p {
